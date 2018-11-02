@@ -876,8 +876,7 @@ def validator_for(schema, default=_LATEST_VERSION):
 
         default:
 
-            the default to return if the appropriate validator class cannot be
-            determined.
+            the default to return if the schema is True or False
 
             If unprovided, the default is to return
             the latest supported draft.
